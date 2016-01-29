@@ -1,0 +1,28 @@
+{
+    "name": "xtheme/server",
+    "description": "XTheme Server",
+    "homepage": "http://www.github.com/xtheme-project/server",
+    "keywords": ["xtheme", "server", "cms", "website"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "silex/silex": "2.0.*@dev",
+        "linkorb/autotune": "~1.0",
+        "symfony/config": "~2.4",
+        "symfony/yaml": "~2.7"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "XTheme\\Server\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
